@@ -1676,11 +1676,7 @@ def flask_hls_proxy():
 
 @app.route('/api/secure/pipe', methods=['GET'])
 def secure_pipe():
-    """
-    Miruro-style encrypted endpoint.
-    Expects ?e=<base64_encrypted_payload>
-    Decrypts the payload, runs the proxy request, and returns an AES-GCM encrypted JSON string.
-    """
+    
     e_b64 = request.args.get('e')
     if not e_b64:
         return jsonify({"error": "Missing payload"}), 400
