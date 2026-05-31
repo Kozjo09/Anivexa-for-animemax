@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/walterwhite-69/Kurovexa/main/favicon.svg" width="64" height="64" alt="Kurovexa Logo" />
+<img src="https://raw.githubusercontent.com/walterwhite-69/Anivexa/main/favicon.svg" width="64" height="64" alt="Anivexa Logo" />
 
-# Kurovexa
+# Anivexa
 
 **A clean, fast, and privacy-focused anime streaming site.**  
 Built with vanilla HTML/CSS/JS and a Python Flask backend.
@@ -20,13 +20,13 @@ Built with vanilla HTML/CSS/JS and a Python Flask backend.
 
 ## What is this?
 
-Kurovexa is a self-hosted anime streaming platform. No ads, no clutter. Just anime.
+Anivexa is a self-hosted anime streaming platform. No ads, no clutter. Just anime.
 
-It proxies episode data through your own backend so nothing leaks your API source. All API traffic is encrypted end-to-end using AES-256-GCM — requests and responses are both encrypted blobs, unreadable in the network tab.
+It proxies episode data through your own backend so nothing leaks your API source. All API traffic is encrypted end-to-end using AES-256-GCM — requests and responses are both encrypted blobs, un[...]
 
 ---
 
-> Note: Due to constant updates, Kurovexa has been made closed-source and wont be maintained properly on template version. It will get updated once in a few months. The hosted version will be maintained properly
+> Note: Due to constant updates, Anivexa has been made closed-source and wont be maintained properly on template version. It will get updated once in a few months. The hosted version will be main[...]
 
 ## Features
 
@@ -44,7 +44,7 @@ It proxies episode data through your own backend so nothing leaks your API sourc
 
 ## Sources
 
-Episodes are sourced through the connected anime API. Kurovexa is built to work with the **[Miruro API](https://github.com/walterwhite-69/Miruro-API)** — a self-hostable anime data + streaming API. Deploy your own instance and point `ANIME_API_URL` at it.
+Episodes are sourced through the connected anime API. Anivexa is built to work with the **[Miruro API](https://github.com/walterwhite-69/Miruro-API)** — a self-hostable anime data + streaming A[...]
 
 Supported providers (via the API):
 
@@ -79,8 +79,8 @@ Supported providers (via the API):
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/walterwhite-69/Kurovexa.git
-cd Kurovexa
+git clone https://github.com/walterwhite-69/Anivexa.git
+cd Anivexa
 ```
 
 ### 2. Install dependencies
@@ -145,7 +145,7 @@ Nobody looking at the network tab sees raw API endpoints or responses.
 ## Project Structure
 
 ```
-Kurovexa/
+Anivexa/
 ├── server.py                          # Flask backend
 ├── vercel.json                        # Vercel deployment config
 ├── requirements.txt
@@ -173,7 +173,7 @@ Kurovexa/
 
 Connect your AniList account from the profile page. Once linked:
 
-- Your watching/completed/planned lists sync with Kurovexa
+- Your watching/completed/planned lists sync with Anivexa
 - Episode progress is tracked and saved back to AniList automatically
 - Stats (total episodes watched, mean score, etc.) show on your profile
 
